@@ -19,7 +19,7 @@ namespace Exercise3
             InitializeComponent();
         }
 
-        private void StarField(int stars)
+        private void StarField(float stars)
         {
 
             Graphics g = this.CreateGraphics();
@@ -41,7 +41,7 @@ namespace Exercise3
             }
         }
 
-        private void starButton_Click_1(object sender, EventArgs e)
+        private void Form1_Click(object sender, EventArgs e)
         {
             StarField(100);
         }
